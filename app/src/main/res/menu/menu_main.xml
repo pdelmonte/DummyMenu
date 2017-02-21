@@ -4,18 +4,29 @@
     <item
         android:id="@+id/addItem"
         android:title="@string/popmenu_add_text"
-        android:icon="@android:drawable/ic_menu_add"
-        app:showAsAction="always">
-
+        android:icon="@android:drawable/ic_menu_add">
     </item>
     <item
         android:id="@+id/likeItem"
         android:title="@string/contextmenu_liketext"
-        android:icon="@drawable/ic_action_like">
+        android:icon="@drawable/ic_action_like"
+        app:showAsAction="always">
     </item>
     <item
         android:id="@+id/dislikeItem"
         android:title="@string/contextmenu_disliketext"
         android:icon="@drawable/ic_action_dislike">
+    </item>
+    <item
+        android:id="@+id/fuegoItem"
+        android:title="@string/contextmenu_fuegotext"
+        android:icon="@drawable/ic_action_fuego"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/highlightItem"
+        android:title="@string/contextmenu_highlighttext"
+        android:icon="@drawable/ic_highlight_black_24dp"
+        app:showAsAction="ifRoom">
     </item>
 </menu>

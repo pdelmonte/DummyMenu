@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">DummyMenu</string>
-    <string name="popmenu_add_text">Menu</string>
-    <string name="contextmenu_liketext">Like!</string>
-    <string name="contextmenu_disliketext">Dislike!</string>
+    <string name="popmenu_add_text">Add</string>
+    <string name="contextmenu_liketext">Like</string>
+    <string name="contextmenu_disliketext">Dislike</string>
+    <string name="contextmenu_fuegotext">Fuego</string>
+    <string name="contextmenu_highlighttext">Highlight</string>
 </resources>
